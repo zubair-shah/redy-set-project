@@ -1,0 +1,809 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sec-padding{
+    padding: 40px 0px;
+}
+.sec-paddingg{
+    padding: 80px 0px;
+}
+.clearfix{
+    content: '';
+    display: table;
+}
+.d-table-cell{
+    display: table-cell;
+    line-height: 55px;
+    }
+/* button */
+#button {
+        display: inline-block;
+        background-color: #d04744;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        border-radius: 4px;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        transition: background-color .3s, opacity .5s, visibility .5s;
+        z-index: 1000;
+        text-decoration: none;
+    }
+
+    #button.show {
+        opacity: 1;
+        visibility: visible;
+    }
+ 
+#button::after {
+        content: "\f077";
+        font-family: FontAwesome;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 2em;
+        line-height: 50px;
+        color: #fff;
+    }
+/* header making */
+
+header{
+background-color: rgb(208 71 68);
+width: 100%;
+}
+.header-main{
+    /* display: flex; */
+    width: 100%;
+    padding: 10px 0px;
+    position: relative;
+
+}
+
+.header-main ul{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+.header-main ul li{
+    list-style-type: none;
+    color: white;
+}
+.header-main ul li a{
+text-decoration: none;
+}
+
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left-main{
+ width: 100%;
+float: left;
+}
+
+.header-left-main ul li a{
+    color: rgb(255 255 255);
+    font-size: 16px;
+    padding: 6px 8px;
+    border-radius: 9px;
+    font-weight: bold;
+    transition: 0.5s;
+    margin: 2px;
+    
+}
+.active{
+    background-color: rgb(126 190 54);
+}
+.header-left-main ul li a:hover{
+    background-color: rgb(126 190 54);
+}
+.header-left-main ul li a:active{
+    background-color: rgb(126 190 54);
+}
+.header-right{
+    width: 30%;
+    float: right;
+}
+.header-right ul li a{
+    color: rgb(255 255 255);
+    padding: 6px 8px;
+    font-size: 16px;
+    border-radius: 9px;
+    font-weight: bold;
+    transition: 0.5s;
+    margin: 1px;
+}
+.header-right ul li a:hover{
+    background-color: rgb(126 190 54);
+}
+.header-logo{
+width: 40%;
+}
+.header-logo-main{
+    width: 100%;
+}
+.header-logo a img{
+    position: absolute;
+    z-index: 1;
+    /* height: 250px; */
+    width: 35%;
+    top: 0;
+}
+
+
+/* section-banner-1 */
+.slide-content-main{
+    width: 100%;
+    display: table;
+    height: 93vh;
+}
+.slide-content{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+}
+.slide-content h1{
+    font-size: 65px;
+    position: relative;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: rgb(255 255 255);
+    line-height: 76px;
+}
+.content-red{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(208 71 68);
+    margin-left: 15px;
+    text-shadow: 2px -1px 1px white;
+}
+.content-orange{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(246 104 38);
+    margin-left: 15px;
+    text-shadow: 2px -1px 1px white;
+}
+.content-green{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(126 190 54);
+    margin-left: 15px;
+    text-shadow: 2px -1px 1px white;
+}
+
+  
+.tiger-img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(0%, 35%);
+    z-index: 1;
+}
+
+.slide-content button{
+    background-color: #7ebe36;
+    color: #ffffff;
+    font-weight: 600;
+    border: 2px solid #ffffff;
+    padding: 8px 50px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.slide-content button:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+
+/* banner-1 */
+#about{
+    background-color: #f66826;
+    min-height: 320px;
+    position: relative;
+}
+.about-main{
+    width: 100%;
+
+}
+.about-left{
+    width: 50%;
+    float: left;
+    z-index: 2;
+  
+  }
+
+
+.about-right{
+    float: left;
+    width: 49.5%;
+    /* text-align: center; */
+    background-color: white;
+    height: 300px;
+    border-left: 2px solid #f66826;
+    padding: 25px 0px;
+    z-index: 2;
+}
+
+
+.about-content h1{
+    font-size: 54px;
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+.red-1 {
+    color: #d04744;
+}
+.orangi-2 {
+    color: #f66826;
+}
+.green-3 {
+    color: #7ebe36;
+}
+.about-content{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+.about-content p{
+    font-size: 13px;
+}
+.about-para2 {
+    padding-top: 30px;
+}
+
+/* section banner products */
+
+#products{
+    width: 100%;
+    height: 750px;
+    z-index: 0;
+    padding-top: 100px;
+    background-color: #7ebe36;
+}
+
+.product-head{
+    width: 90%;
+    margin: 0 auto;
+    float: left;
+    height: 150px;
+}
+.head-img{
+    background-size: 100% 100%;
+    width: 100%;
+    margin: 0 auto;
+    height: 150px;
+}
+
+.product-content{
+    text-align: center;
+    padding: 40px 0px;
+}
+.product-content h1 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Noto Sans TC', sans-serif;
+ }
+
+
+ .product-right {
+    z-index: 1;
+    position: absolute;
+    margin-top: -10%;
+    right: 0;
+ }
+ .product-right img{
+height: 450px;
+ }
+
+.product-center{
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+ }
+
+ .product-center-sub{
+    width: 48.5%;
+    float: left;
+
+ }
+ .product-center-sub1{
+    width: 48.5%;
+    float: right;
+    margin-left: 32px;
+    
+ }
+ 
+.product-center-h1{
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px;
+}
+.product-center-h1 h1{
+    font-size: 44px;
+    color: white;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.product-slider-content{
+    background: #f66826;
+    font-size: 13px;
+
+}
+.product-slider-content p{
+    width: 85%;
+    padding: 22.5px 0px;
+    margin: 0 auto;
+    color: white;
+    position: relative;
+}
+.arrow{
+    position: absolute;
+    right: 40px;
+    bottom: -10px;
+}
+.arrow span a {
+    text-decoration: none;
+}
+.arrow span a i{
+    font-size: 17px;
+    color: white;
+    background: #e55b1b;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50px;
+    line-height: 43px;
+    font-weight: 100;
+}
+
+
+
+/* banner-party */
+#party{
+    position: relative;
+    background-color: #f0f0f0;
+
+}
+.lady-img img{
+    position: absolute;
+    height: 481px;
+    left: -62px;
+    top: -17px;
+    z-index: 1;
+}
+
+.man-img img{
+    position: absolute;
+    height: 481px;
+    top: -5px;
+    right: 0;
+    z-index: 1;
+}
+.party-heading{
+    text-align:center;
+}
+
+.party-heading h1{
+    font-size: 54px;
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 1px;
+}
+.party-para{
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-size: 13px;
+    line-height: 21px;
+    width: 80%;
+}
+
+.product-img{
+    /* height: 80vh; */
+    background-size: cover;
+    /* margin:0 20px; */
+    text-align: center;
+  }
+
+  .product-img .img{
+    background-size: cover;
+     height: 80vh;
+      width:100%;
+       background-position: center;
+  }
+
+.product-img h3 {
+    font-size: 20px;
+    color: #f66826;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+.product-img h1{
+    font-size: 29px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+/* section area */
+#area{
+    position: relative;
+    background-color: #7ebe36;
+    padding-top: 50px;
+    width: 100%;
+    z-index: 0;
+}
+.panda-image{
+    position: absolute;
+    top: -65px;
+    right: 0;
+  }
+  
+.panda-image a img{
+
+    height: 430px;
+
+}
+.panda-content-main{
+    background: #d04744;
+}
+.panda-content1{
+    width: 50%;
+    float: right;
+    right: -23px;
+    padding: 80px 0px 50px 0px;
+    color: white;
+}
+
+.panda-content1 h1{
+    font-size: 50px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.panda-content1 p  {
+    font-size: 13px;
+    padding-right: 83px;
+    padding-top: 15px;
+    line-height: 23px;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+.panda-content2{
+    width: 50%;
+    float: left;
+  }
+ .panda-content-img{
+    height: 440px;
+    background-size: cover;
+    /* position: relative; */
+    position: relative;
+    left: -40px;
+    width: 100%;
+    top: -40px;
+ }
+
+ /* section role */
+ #role{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-image: url(images/role-play.png);
+ }
+
+ .role-head{
+    padding-top: 35px;
+    text-align: center;
+ }
+.role-head h1{ 
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 55px;
+}
+.tiger-2{
+    position: absolute;
+    left: 0;
+    bottom: -75px;
+    z-index: 55;
+}
+
+/* section service department */
+    
+#department{
+    position: relative;
+    background: #f66826;
+
+}
+.department-head{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.department-head p{
+    font-size: 12px;
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 21px;
+}
+.department-img {
+    position: relative;
+}
+.department-img .img{
+    background-size: cover;
+    height: 60vh;
+     width:100%;
+      background-position: center;
+}
+.department-content-h1{
+    padding-top: 37px;
+    text-align: center;
+    color: white;
+}
+.department-content-h1 h1{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.department-plus{
+    position: absolute;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+.department-plus span a i {
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 50px;
+    background: #e55b1b;
+    transition: 0.5s;
+}
+
+/* booking section */
+
+#booking{
+    background: #7ebe36;
+    position: relative;
+    padding-top: 50px;
+    height: 550px;
+}
+.booking-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.booking-slider-img{
+    height: 60vh;
+    background-size: cover;
+      background-position: center;
+}
+
+
+.booking-slide-heading{
+    padding-top: 25px;
+    text-align: center;
+ }
+ .booking-slide-heading h1{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 54px;
+  }
+
+  /* .product-center-sub1{
+    width: 48.5%;
+    float: right;
+    margin-left: 32px;
+    
+ } */
+/* 
+  .booking-slide-img .img{
+    background-size: cover;
+    height: 60vh;
+     width:100%;
+      background-position: center;
+  } 
+ 
+
+ .product-center-sub{
+    width: 48.5%;
+    float: left;
+
+ }
+ .product-center-sub1{
+    width: 48.5%;
+    float: right;
+    margin-left: 32px;
+    
+ }
+ 
+.product-center-h1{
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px;
+}
+.product-center-h1 h1{
+    font-size: 44px;
+    color: white;
+    font-family: 'Noto Sans TC', sans-serif;
+} */
+
+
+/* section enquirey form */
+#enquirey{
+
+}
+.enquirey-img{
+    width: 50%;
+    float: right;
+
+}
+.enquirey-img .img{
+    background-size: cover;
+    height: 82vh;
+}
+.enquirey-form-main{
+    width: 50%;
+    float: left;
+    background: #1f1f1f;
+    height: 82vh;
+}
+.enquirey-form-heading{
+    
+    padding: 0px 60px;
+}
+.enquirey-form-heading h4{
+    color: #f66826;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+}
+.enquirey-form-heading h1{
+    font-family: 'Noto Sans TC', sans-serif;
+    color: white;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.enquirey-form-heading p{
+    font-family: 'Noto Sans TC', sans-serif;
+    color: white;
+    font-size: 14px;
+}
+.enquirey-form{width: 75%;
+    padding: 21px 60px;
+}
+
+.enquirey-form form input{
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    font-size: 14px;
+    border-radius: 4px;
+    font-family: "Noto Sans TC", sans-serif;
+    border-right: 3px solid #fff;
+    border-left: 3px solid #fff;
+    background-color: #1f1f1f;
+    width: 94%;
+    margin-bottom: 10px;
+}
+
+.enquirey-form button{
+    width: 100%;
+    background: #d04744;
+    border: 1px solid #d04744;
+    padding: 16px;
+    border-radius: 8px;
+}
+.enquirey-form button a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Noto Sans TC", sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+/* section footer */
+#footer{
+    width: 100%;
+    background-color: #000000;
+}
+.contact-us-heading{
+    width: 100%;
+    margin-bottom: 20px;}
+
+.contact-us-heading h1  {
+        color: white;
+        font-family: "Noto Sans TC", sans-serif;
+        font-size: 43px;
+    }
+ .bottom-location{
+    width: 50%;
+    float: left;
+    padding-top: 10px;
+ }
+ .bottom-phone{
+    width: 25%;
+    float: left;
+    padding-top: 10px;
+ }
+.bottom-email{
+    width: 25%;
+    float: left;
+    padding-top: 10px;
+}
+.footer-sub h3{
+    color: white;
+    font-family: "Noto Sans TC", sans-serif;
+    margin-bottom: 9px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.footer-sub p{
+    color: #9e9e9e;
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* section-copy-right */
+#copy-right{
+    background-color: #1f1f1f;
+}
+.copyright-content{
+    width: 75%;
+    float: left;
+}
+.copyright-icons{
+    width:25%;
+    float: right;
+}
+.copyright-content p{
+    color: #9e9e9e;
+    font-size: 18px;
+}
+.copyright-icons ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 3px;
+}
+.copyright-icons ul li a{
+    text-decoration: none;
+}
+.twitt,.face,.insta{
+    color: white;
+}
+.pinterist{
+    color: black;
+}
+.copyright-icons ul li a i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
